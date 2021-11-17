@@ -1,0 +1,63 @@
+*{
+	
+}
+article {
+	background-color:  lightgray;
+	color:  blue;
+}
+article a:hover{
+	color:  red;
+}
+
+#vip{
+	background-color: aqua;
+	color: green;
+}
+
+.center{
+	text-align: center;
+}
+
+.blue{
+	background-color: lightblue;
+}
+
+section a{
+	color: blue;
+}
+
+section a[href = "kitm.lt"]{
+	color: red;
+}
+
+section a[href$= ".docx"]{
+	color: green;
+}
+
+section a[href$= ".xlsx"]{
+	color: gray;
+}
+
+section a[href$= ".pdf"]{
+	color: red;
+}
+
+.documents ul li:nth-child(odd){
+	color: darkred;
+}
+.documents ul li:nth-child(even){
+	color: darkgoldenrod;
+}
+
+.documents ul li:first-child{
+	color: darkblue;
+}
+.documents ul li:last-child{
+	color:  green;
+}
+.services ul>li{
+	color:  darkred;
+}
+.services ul>li>ul>li{
+	color: blue;
+}
